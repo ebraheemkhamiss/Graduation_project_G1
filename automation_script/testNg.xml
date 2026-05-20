@@ -1,0 +1,9 @@
+<suite name="Sauce Demo suite" verbose="1">
+    <test name="Sauce Demo Regression">
+        <classes>
+            <class name="test.Logintest"/>
+            <class name="test.CartTest"/>
+            <class name="test.FilterTest"/>
+        </classes>
+    </test>
+</suite>
